@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Space+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    text-transform: capitalize;
+    background-color: #151E3F;
+}
+nav{
+    background-color: #151E3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    text-transform: uppercase;
+}
+h1 {
+    margin-right: 200px;
+    color: #F2F3D9;
+    text-transform: uppercase;
+}
+.menu li{
+   display: inline-block;
+   width: 250px;
+   text-align: center;
+   line-height: 70px;
+   font-family: 'Space Mono', monospace;
+   margin-right: 20px;
+   font-size: 1rem;
+}
+.menu li a {
+    text-decoration: none;
+    color: #eee;
+}
+.menu li:hover {
+    background-color: rgb(94, 27, 219);
+    border-radius: 5px;
+}
+.all-anime-image {
+    width: 100%;
+    height: 100vh;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    margin-top: -400px;
+    color: white;
+    height: 100px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+}
+article {
+    color: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px 40px;
+    margin: auto;
+    border: 1px solid #151E3F;
+    position: relative;
+    text-indent: 50px;
+    font-weight: 300;
+}
+.container {
+    width: 100%;
+    height: auto;
+    color: #F2F3D9;
+    padding: 30px 20px ;
+    margin-top: 200px;
+}
+.content {
+    border-radius: 5px;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.content figcaption .title {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content figcaption p {
+    padding: 20px;
+    word-spacing: 5px;
+}
+.content figcaption a {
+    text-decoration: none;
+    text-align: center;
+    color: #eee;
+    padding: 10px;
+    background-color: rgb(94, 27, 219);
+    border-radius: 5px;
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.description {
+    text-indent: 50px;
+}
+.description::first-letter {
+    font-size: 2rem;
+}
+hr {
+    border: 1px solid #888;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid #F2F3D9;
+    display: flex;
+}
+footer form {
+    width: 50%;
+    height: auto;
+}
+footer form input, textarea {
+    width: 60%;
+    height: 50px;
+    padding: 20px 40px;
+    margin: auto;
+    border-radius: 10px;
+    outline: none;
+    display: block;
+    margin-bottom: 10px;
+}
+footer form textarea {
+    height: 100px;
+}
+footer form button {
+    width: 45%;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(94, 27, 219);
+    color: #F2F3D9;
+    outline: none;
+    float: right;
+    margin-right: 150px;
+}
+footer h4 {
+    color: #F2F3D9;
+    text-transform: uppercase;
+    padding: 20px 40px;
+}
+footer .social-media-links {
+    height: auto;
+    width: 35%;
+}
+footer .social-media-links ul li{
+    display: inline-block;
+    width: 60px;
+    line-height: 50px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #F2F3D9;
+    list-style: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+    margin-right: 10px;
+}
+footer .social-media-links ul li i:hover{
+    font-size: 2rem;
+}
+footer h5 {
+    font-size: 3rem;
+    color: #F2F3D9;
+    width: 20%;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+}
